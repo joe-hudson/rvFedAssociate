@@ -1,3 +1,54 @@
+$lightblue: #F6F7F8;
+$blue: #00175A;
+
 body {
     font-family: "Montserrat", sans-serif;
+    width: 1440px;
+    font-size: 18px;
+    line-height: 22px;
+    background-color: $lightblue;
+}
+.t-upper {
+    text-transform: uppercase;
+}
+.container {
+    width: 100%;
+    height: 500px;
+}
+.enrollment {
+    height: 105px;
+    color: $blue;
+}
+.enrollment {
+    .brand {
+        float: left;
+        width: 120px; 
+        height: 60px;
+        font-size: 28px;
+        line-height: 30px;
+        padding: 24px 0 24px 46px;
+    }
+    .bar {
+        display: block;
+        float: left;
+        height: 57px;
+        margin: 24px 0;
+        border: 2px solid $blue;
+    }
+    .announcement {
+        display: block;
+        float: left;
+        margin-top: 30px;
+        margin-left: 15px;
+        font-weight: bold;
+    }
+    .announcement span:last-child { 
+        display: block;
+        float: left;
+        margin-top: 5px;
+    }
+}
+.subscription {
+    height: 340px;
+    background-color: $blue;
 }
